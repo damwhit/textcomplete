@@ -4,9 +4,8 @@
   "description": "Textcomplete editor for contenteditable",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/yuku/textcomplete",
-  "homepage": "https://yuku.takahashi.coffee/textcomplete",
-  "author": "Yuku Takahashi",
+  "repository": "https://github.com/damwhit/textcomplete",
+  "author": "Yuku Takahashi and David Whitaker",
   "license": "MIT",
   "scripts": {
     "build": "rm -fr dist && tsc",
