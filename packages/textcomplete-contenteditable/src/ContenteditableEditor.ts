@@ -1,10 +1,9 @@
 import { Editor, CursorOffset, SearchResult } from "@textcomplete/core"
-import { isSafari, getLineHeightPx } from "@textcomplete/utils"
+import { getLineHeightPx } from "@textcomplete/utils"
 
 export class ContenteditableEditor extends Editor {
   constructor(public readonly el: HTMLElement) {
     super()
-    if (isSafari()) return
     this.startListening()
   }
 
